@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function IndexPage() {
   return (
-    <div>
+    <div className="container">
       <Head>
         <title>Pizza Restaurant in New York</title>
         <meta name="description" content="Best Pizza Shop in town!" />
