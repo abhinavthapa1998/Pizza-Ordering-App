@@ -1,21 +1,25 @@
 import styles from "../styles/Navbar.module.css";
-import Image from "next/image";
+// import Image from "next/image";
 const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
         <div className={styles.callButton}>
           <img
-            src="https://i.pinimg.com/736x/26/82/ba/2682ba37e946260bff3e6a8ee091bc06.jpg"
+            src="https://www.pngitem.com/pimgs/b/177-1777154_phone-symbol-png.png"
             alt="telephone"
-            height={100}
-            width={100}
+            height={32}
+            width={32}
             layout="fill"
           />
         </div>
+        <div className={styles.texts}>
+          <div className={styles.text}>ORDER NOW!</div>
+          <div className={styles.text}>012-345-678</div>
+        </div>
       </div>
-      <div className={styles.item}></div>
-      <div className={styles.item}></div>
+      <div className={styles.item}>Center</div>
+      <div className={styles.item}>Right</div>
     </div>
   );
 };
